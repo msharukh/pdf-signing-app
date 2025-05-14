@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>PDF Signing App</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>PDF Signing App</h1>
+            <h1 style="color: darkred;">🚀 PDF Signing App - Updated!</h1>
             <p>Upload a PDF to sign it with a simple click.</p>
         </header>
         <div class="upload-container">
             <form id="upload-form" enctype="multipart/form-data">
                 <label for="file-upload" class="upload-label">
                     <span>Choose PDF File</span>
-                    <input type="file" id="file-upload" name="file" accept="application/pdf" required>
+                    <input type="file" id="file-upload" name="file" accept="application/pdf" required />
                 </label>
                 <button type="submit" class="upload-btn">Upload and Sign</button>
             </form>
         </div>
         <div id="signed-pdf-container" class="hidden">
             <h2>Download Signed PDF</h2>
-            <a id="signed-pdf-link" href="" target="_blank" class="download-btn">Download Signed PDF</a>
+            <a
+                id="signed-pdf-link"
+                href=""
+                target="_blank"
+                class="download-btn"
+                >Download Signed PDF</a
+            >
         </div>
         <footer>
             <p>PDF Signing App &copy; 2025</p>
